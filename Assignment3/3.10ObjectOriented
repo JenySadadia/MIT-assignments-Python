@@ -1,0 +1,11 @@
+1.What is the difference between a local variable and an object’s attribute?
+ans:Local variables are variables used within a method; an object's attributes are variables that
+    can be used be used throughout the entire object, regardless of the method in which it is
+    first defined. However we usually wish to define attributes within the __init__ method.
+
+2.What method is called when the object is created?
+ans:__init__ (self, ...)
+
+3. If you have an object instance, obj, and you want to call its do_something() method
+(assuming it has one), how would you do this? (write the line of code you would use)
+ans:obj.do_something()
